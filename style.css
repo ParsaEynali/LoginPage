@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    }
+body {
+  height: 100vh;
+  background: linear-gradient(135deg, #4f46e5, #9333ea);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* Animated floating circles */
+.bubble {
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.15);
+  animation: floatUp 10s infinite ease-in;
+  filter: blur(2px);
+}
+
+@keyframes floatUp {
+  0% { transform: translateY(0) scale(1); opacity: 0.4; }
+  50% { opacity: 1; }
+  100% { transform: translateY(-800px) scale(1.4); opacity: 0; }
+}
+
+.container {
+  width: 360px;
+  padding: 35px;
+  border-radius: 20px;
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  animation: fadeIn 1s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #fff;
+  letter-spacing: 2px;
+  animation: glow 2s infinite alternate;
+}
+
+@keyframes glow {
+  0% { text-shadow: 0 0 5px #fff; }
+  100% { text-shadow: 0 0 15px #fff; }
+}
+
+.input-group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group label {
+  margin-bottom: 6px;
+  color: #e5e5e5;
+  font-size: 14px;
+}
+
+.input-group input {
+  padding: 11px;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  background: rgba(255, 255, 255, 0.25);
+  color: #fff;
+  outline: none;
+  transition: 0.35s;
+  backdrop-filter: blur(10px);
+}
+
+.input-group input:hover,
+.input-group input:focus {
+  border-color: #fff;
+  background: rgba(255, 255, 255, 0.35);
+  transform: scale(1.03);
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: none;
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(15px);
+  color: #fff;
+  font-size: 17px;
+  cursor: pointer;
+  transition: 0.3s;
+  letter-spacing: 1px;
+}
+
+button:hover {
+  background: rgba(255, 255, 255, 0.55);
+  color: #000;
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.7);
+}
