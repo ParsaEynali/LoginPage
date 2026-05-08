@@ -7,7 +7,7 @@
 </p>
 
 ## How to use 
-<p align="center">only thing you need to do is only downloading the main files.
+<p align="center">only thing you need to do is only downloading the main files. <br>
   ⚠Tip: if you think bubbles cause lag on your website, you can delete Line 9 of "index.html"
 </p>
 
