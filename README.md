@@ -1,6 +1,6 @@
 # LoginPage Repo
 
-<p align="center">Animated login page with live bubbles. </p>
+
 
 <p align="center">
   <a href="https://github.com/ParsaEynali">
