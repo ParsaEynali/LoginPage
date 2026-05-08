@@ -1,5 +1,7 @@
 # LoginPage Repo
 
+<p align="center">Animated login page with live bubbles. </p>
+
 <p align="center">
   <a href="https://github.com/ParsaEynali">
     <img src="https://readme-typing-svg.herokuapp.com?color=0eb005&center=true&vCenter=true&lines=V1.0.0;Better+animations;live+bubbles;Nothing+need+to+install;Can+be+customized;Creator:@ParsaEynali" />
@@ -14,7 +16,7 @@
 ## 👨‍💻Technologies
 <img alt="Alt text" src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black"/>
 
-### ℹ more information 
+## ℹ more information 
 📃License: MIT License
 
 💻Creator and designer: @ParsaEynali
