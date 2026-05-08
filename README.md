@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://github.com/ParsaEynali">
-    <img src="https://readme-typing-svg.herokuapp.com?color=0eb005&center=true&vCenter=true&lines=V1;Better+animations;live+bubbles;Nothing+need+to+install" />
+    <img src="https://readme-typing-svg.herokuapp.com?color=0eb005&center=true&vCenter=true&lines=V1.0.0;Better+animations;live+bubbles;Nothing+need+to+install;Can+be+customized;Creator:@ParsaEynali" />
   </a>
 </p>
 
